@@ -31,6 +31,21 @@
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
+		<Unit filename="game.cpp" />
+		<Unit filename="game.h" />
+		<Unit filename="geometry.cpp" />
+		<Unit filename="geometry.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="math.cpp" />
+		<Unit filename="math.h" />
+		<Unit filename="projectile.cpp" />
+		<Unit filename="projectile.h" />
+		<Unit filename="tank.cpp" />
+		<Unit filename="tank.h" />
+		<Unit filename="terrain.cpp" />
+		<Unit filename="terrain.h" />
+		<Unit filename="window.cpp" />
+		<Unit filename="window.h" />
 		<Extensions>
 			<code_completion />
 			<envvars />
