@@ -12,13 +12,14 @@ enum{T_FOREST=0, T_DESERT, T_MOUNTAIN, T_DARK, T_RANDOM};
 struct TERRAIN{
     GAME* parent;
 
-    short height[WIDTH];
+    short h[WIDTH];
 
     short currentType;
 
     void generate();
 
     bool isUnder(VECTOR v);
+    double heightAt(double x);
     VECTOR normalAt(double x);
 
     void explode(VECTOR v, short kind);

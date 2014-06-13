@@ -3,7 +3,7 @@
 
 #include "math.h"
 #include "geometry.h"
-#include "game.h"ss
+#include "game.h"
 
 struct TANK{
     GAME* parent;
@@ -19,6 +19,7 @@ struct TANK{
     VECTOR normal;
 
     bool isInHitbox();
+    void render();
 };
 
 #endif // TANK_H

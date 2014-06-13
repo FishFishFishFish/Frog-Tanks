@@ -5,7 +5,7 @@
 #include "geometry.h"
 #include "game.h"
 
-enum {P_BASIC=0, P_SMLATOMBOMB, P_ATOMBOMB};
+enum {P_BASIC=0, P_CARPETBOMB, P_CARPETBOMBCARPET, P_SMLATOMBOMB, P_ATOMBOMB};
 
 struct PROJECTILES{
     GAME* parent;
@@ -15,7 +15,7 @@ struct PROJECTILES{
 
     std::vector<short> type;
 
-    void fire(VECTOR p, VECTOR dp, short type);
+    void fire(VECTOR _p, VECTOR _dp, short _type);
     void tick();
     void render();
 };
